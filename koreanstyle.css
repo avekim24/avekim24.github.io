@@ -1,0 +1,31 @@
+body {
+	background-color: #F9D0F6;
+}
+
+<head>
+<link href="koreanstyle.css" type="text/css" rel="stylesheet" />
+</head>
+
+.topnav {
+   background-color: #FFBFF6;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #FF64F1;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #FF5DC4;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #FF03E8;
+   color: white;
+}

@@ -1,0 +1,39 @@
+body {
+	background-color: #A6E0FA;
+}
+
+<head>
+<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+.topnav {
+   background-color: #333333;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #00B6FF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #B5E5FF;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #0087FF;
+   color: white;
+}
+
+#photoSanPedro {
+  background: url("languages.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 60px 0px;
+}
